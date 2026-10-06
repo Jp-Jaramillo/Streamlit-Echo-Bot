@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Echo Bot")
+st.title("JuanJaramillo_Echo Bot")
 
 # message history
 if "messages" not in st.session_state:
