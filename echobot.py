@@ -1,8 +1,13 @@
 import streamlit as st
 
-st.title("JuanJaramillo_Echo Bot")
 
-# message history
+st.title("JuanJaramillo_Echo Bot")
+with st.chat_message("assistant"):
+    st.image("DashboardPowerBi.png", caption="CIT 144 – Demographics Data Visualization")
+
+
+
+# initialize message history
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
